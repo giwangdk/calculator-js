@@ -36,19 +36,18 @@ button{
 button:hover{
     background: rgb(255, 255, 255);
 }
-.number{
+[data-num]{
     background-color:rgba(211, 241, 255, 0.863);
 }
-.operator{
+[data-operator], [data-output], [data-all-clear], [data-delete]{
     background:rgb(248, 203, 229) ;
 }
 
-
-.operator:nth-child(16){
+[data-output]{
     grid-column: 4 ;
     grid-row: 4/ 6;
 }
-.number:nth-child(17){
+[data-num]:nth-child(17){
     grid-column: 1/3;
 }
 .calculator_display{
