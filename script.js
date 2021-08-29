@@ -44,12 +44,12 @@ function calcOperation() {
 
     switch (operation) {
         case "+":
-            result = prev + currentOperand;
+            result = Number(prev) + Number(currentOperand);
             break;
         case "-":
             result = prev - currentOperand;
             break;
-        case "*":
+        case "x":
             result = prev * currentOperand;
             break;
         case "/":
